@@ -31,7 +31,8 @@ right it doesn't have anything inside of it, but it exist in the computer memory
 
 className.attribute
 
-Q. is class object mutable or immutable ? \n
+Q. is class object mutable or immutable ? 
+
 A. they are mutable but we can make them immutable.
 
 ```
@@ -84,6 +85,7 @@ newly created object which just exist in computer memory and has nothing.
 it's up to you now you to store the variables passed as an arguments to the class, in the object.
 
 Q. How do you do that ?
+
 Python just automatically calls the dunder "__init__" method.
 and it's gonna autamatically pass in a reference to an argument
 that represents the current object that is just constructed in memory.
@@ -94,7 +96,11 @@ Inside of dunder '__init__' method you can literally create an attribute aka - i
 
 Q. What is the differencce between "__init__" method and default constructor ?
 
-A.
+A. In other laguages for instance - java there are functions that arre explicitly called constructors that construct the object.
+They initialize the value,
+
+Python technically calls this "__init__" method (the initialization method)
+It initializes the values.
 
 
 
