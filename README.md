@@ -22,21 +22,21 @@ className.attribute
 Q. is class object mutable or immutable ?
 A. they are mutable but we can make them immutable.
 
-'''
+```
 class ClassName:
       instance varibles
       attributes
       methods
-'''     
+```    
       
 classes comes with certain methods and function inside of them that you can define and they just behave in a specific way.
 
 These functions allow you tu determine behaviour in a standard way.
 
-'''
+```
 class ClassName:
       def __int__(self):
-'''      
+```      
         
 Now inside of this "def __init__():" we can cutomize the class object.
 
